@@ -266,3 +266,20 @@
  *   EXP2.9        GND
  *   EXP2.10       NC
  */
+
+
+// CTC A13 Display
+#undef BEEPER_PIN
+#undef LCD_PINS_RS
+#undef LCD_PINS_ENABLE
+#undef LCD_PINS_D4
+#undef BTN_EN1
+#undef BTN_EN2
+#undef BTN_ENC
+#define BEEPER_PIN       27
+#define LCD_PINS_RS        29   // ST9720 CS
+#define LCD_PINS_ENABLE    16   // ST9720 DAT
+#define LCD_PINS_D4        11   // ST9720 CLK
+#define BTN_EN1          10
+#define BTN_EN2          28
+#define BTN_ENC          17
